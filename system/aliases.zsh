@@ -8,9 +8,9 @@ function nginx_stop() {
 function nginx_start() {
       sudo /usr/local/opt/nginx/bin/nginx
 }
-alias nginxerror='subl /usr/local/var/log/nginx/error.log'
-alias nginxaccess='subl /usr/local/var/log/nginx/access.log'
-alias nginxconfig='subl /usr/local/etc/nginx/nginx.conf'
+alias nginxerror='e /usr/local/var/log/nginx/error.log'
+alias nginxaccess='e /usr/local/var/log/nginx/access.log'
+alias nginxconfig='e /usr/local/etc/nginx/nginx.conf'
 
 alias zipalign='$ANDROID_HOME/build-tools/$(ls $ANDROID_HOME/build-tools|tail -1)/zipalign'
 
